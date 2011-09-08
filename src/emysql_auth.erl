@@ -24,8 +24,7 @@
 %% FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 %% OTHER DEALINGS IN THE SOFTWARE.
 -module(emysql_auth).
--export([do_handshake/3]).
--compile(export_all).
+-export([do_handshake/3, parse_server_version/1]).
 
 -include("emysql.hrl").
 
